@@ -1,0 +1,320 @@
+   
+   @import "https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap";
+   .whole-page {
+    background-color: #000; 
+    font-family: Raleway, sans-serif;
+  }
+
+  .each-card-enrolled {
+    padding: 10px; 
+    padding: 8px;
+    max-width: 80%;
+  }
+
+  .container-fluid {
+    color: white;
+    text-transform: capitalize;
+    justify-content: space-between;
+    max-width: 85%;
+    margin: auto;
+
+  }
+
+  a.navbar-brand {
+    font-size: 18px;
+    font-family: Raleway, sans-serif;
+  }
+
+  a.navbar-brand:active {
+    color: #f8da64;
+  }
+
+  p.banner-call-action {
+    background: #fff;
+    display: inline-block;
+    padding: 10px 45px;
+    font-size: 20px;
+    border-radius: 10px;
+    font-family: Raleway, sans-serif;
+  }
+
+  .header { 
+    position: relative;
+    border: 1.5px solid #fff;
+    border-top: none;
+    border-radius: 0 0 45px 45px; 
+  }
+
+  .banner-image {
+    position: absolute;
+    top: 27px;
+  }
+
+  h1.banner-heading {
+    font-size: 64px;
+    color: #fff;
+    text-transform: capitalize;
+  }
+
+  .path-btn-container {
+    margin: 10px 9px 0 14p
+  }
+
+  button.banner-btn.btn {
+    text-transform: uppercase;
+    padding: 15px 23px;
+    margin-top: 12px;
+    background-color: yellow;
+  }
+
+  .explore-more-container {
+    position: absolute;
+    left: 50%;
+    bottom: -163px;
+    transform: translate(-50%, -14%);
+    background: #624BFF;
+    /* border-radius: 50%; */
+    padding: 30px;
+    cursor: pointer;
+  }
+
+  .courses {
+    margin-top: 15%;
+  }
+
+  .primary-heading {
+    text-transform: capitalize;
+    font-size: 44px;
+    font-weight: 600;
+  }
+
+  .popular-filter-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+
+  .course-filter-item {
+    color: #fff;
+    border-color: #624bff;
+    color: #818c96;
+    border: 1px solid #C4C4C4;
+    border-radius: 4px;
+    margin-right: 26px;
+    padding: 5px 20px;
+    font-size: 13px;
+    cursor: pointer;
+    font-family: Raleway, sans-serif;
+  }
+
+  .course-filter-item:hover {
+    background-color: #624bff;
+    color: #fff;
+    border-color: #624bff;
+  }
+
+
+
+  .content-of-card {
+    color: #d9d9d9;
+    font-weight: 100;
+    margin-bottom: 16px;
+    font-size: 14px;
+    height: 124px;
+  }
+
+  .each-card-content {
+    background: #212121;
+    position: relative;
+    padding: 22px 10px 10px;
+    border-radius: 0 0 12px 12px;
+  }
+
+  .button-container {
+    text-align: right;
+    padding-right: 12px;
+    padding-bottom: 11px;
+  }
+
+  /* .btn-card-button{
+ 
+        border: 1px solid #F8DA64;
+        transition: all .25s ease-in;
+        cursor: pointer;
+        color: #f8da64;
+        font-size: 15px;
+        padding: 5px 18px; 
+        border-radius: 2%;
+    } */
+  button:not(:disabled) {
+    cursor: pointer;
+    color: f8da64;
+    border: 1px;
+    background-color: black;
+    padding: 5px 15px;
+    transition: all .25s ease-in;
+    font-size: 15px;
+  }
+
+  .primary-heading {
+    font-size: 44px;
+    font-weight: 600;
+    text-transform: capitalize;
+  }
+
+  .whyus-section {
+    margin-top: 12%;
+  }
+
+  .whyus-each-card {
+    background: #212121;
+    color: #d9d9d9;
+    text-align: center;
+    padding: 30px 55px 18px;
+    border-radius: 10px;
+    margin-bottom: 23px;
+    width: 279px;
+  }
+
+  .why-us-sub-content {
+    color: #d9d9d9;
+    font-weight: 100;
+  }
+
+  .card-inside-content {
+    margin-top: 22px;
+    font-size: 18px;
+  }
+
+  .why-we-stand-out {
+    background: #212121;
+    max-width: 97%;
+    margin: 4% auto;
+    padding: 7%;
+  }
+
+  .why-we-stand-out-line {
+    width: 41px;
+    display: inline-block;
+    height: 3px;
+    background: #F8DA64;
+    vertical-align: middle;
+    margin-right: 15px;
+  }
+
+  .why-we-stand-out-text {
+    color: #d9d9d9;
+    font-weight: 100;
+    text-transform: capitalize;
+  }
+
+  .why-we-stand-card {
+    text-align: center;
+    border: .5px solid #FFFFF0;
+    border-radius: 15px;
+    padding: 17px 13px 13px;
+  }
+
+  .title-of-the-card {
+    color: ivory;
+    margin-top: 19px;
+  }
+
+  .text-of-the-card {
+    color: #d9d9d9;
+    font-weight: 100;
+  }
+
+  .training {
+    background: #D4E1FF;
+    display: inline-block;
+    padding: 5px 15px;
+    border-radius: 8px;
+    color: #0b7077;
+    margin-bottom: 6px
+  }
+
+  .wh0-is-hash-point {
+    padding-left: 4px;
+    text-transform: capitalize;
+    color: #FFFFF0;
+  }
+
+  .who-is-each-point {
+    margin-bottom: 21px;
+  }
+
+  p.who-is-hash-point {
+    font-size: 18px;
+    color: fff;
+    padding-left: 19px;
+    margin-bottom: 0px;
+    text-transform: capitalize;
+  }
+
+  .about-us-line {
+    background: #F8DA64;
+    width: 47px;
+    display: inline-block;
+    height: 4px
+  }
+
+  .about-us-section {
+    background: #212121;
+    padding-top: 3%;
+  }
+
+  .about-heading {
+    color: ivory;
+  }
+
+  .aboutus-content {
+    color: #d9d9d9;
+  } 
+  h2.about-us-number {
+    font-size: xxx-large;
+} 
+.indicator{
+  color: #f8da63;
+} 
+p.number-label { 
+  font-weight: 100;
+    margin-top: 15px;
+}
+.testimonial-inner-container{ 
+  background: linear-gradient(143deg, rgba(32, 32, 32, 1) 45%, rgb(49 40 108) 100%); 
+  padding: 11px;
+    height: 304px;
+}
+.student-feedback{ 
+  color: #d9d9d9;
+    font-weight: 100;
+    margin-left: 26px;  
+    max-width: 90%;
+} 
+.student-info{ 
+  margin-left: 16px;
+    margin-top: 6px;
+}
+.domain-name{ 
+  font-weight: 100px;
+} 
+.rating{ 
+margin-top: 15px;
+} 
+.application-section{ 
+  background-color: #624bff;
+  color: white;
+
+} 
+.footer-section{ 
+  background-image: url(/assets/footer-bg.cc00989cacc2122a.svg); 
+  background-size: cover; 
+  padding: 7% 7% 5%;
+} 
+a.courses-names{ 
+  color: #000;
+} 
+a.links-names{ 
+  color: #000;
+}
