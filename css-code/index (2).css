@@ -321,6 +321,29 @@ margin-top: 15px;
   color: white;
 
 } 
+
+
+div.chatbot {
+  position: fixed;
+  /* bottom: 30px; */
+  right: 0;
+  z-index: 1;
+  padding-right: 15px;
+  transition: all ease-in;
+  animation: chatbot 1s infinite alternate;
+}
+
+@keyframes chatbot {
+  0% {
+    right: 0px;
+    bottom: 0px;
+  }
+  100% {
+    right: 0px;
+    bottom: 25px;
+  }
+}
+/* chatbot animation ends here */
 footer.footer-section {
   background-image: url("/assets/footer-bg.cc00989cacc2122a.svg");
   background-repeat: no-repeat;
