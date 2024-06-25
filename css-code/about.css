@@ -1,85 +1,119 @@
 @import "https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap";
- .whole-page{
- background-color: #000;  
- font-family: Raleway, sans-serif;
-} 
-.container-fluid {
- max-width: 85%;
- margin: auto;
 
-} 
-a.navbar-brand {
- font-size: 18px;
- font-family: Raleway, sans-serif;
+.whole-page {
+   background-color:  #161616;
+   font-family: Raleway, sans-serif;
 }
+
+.container-fluid {
+   max-width: 85%;
+   margin: auto;
+
+}
+
+a.navbar-brand {
+   font-size: 18px;
+   font-family: Raleway, sans-serif;
+}
+
 .about-us-section {
- padding-top: 5%;
- max-width: 96%;
- margin: auto auto 5%;
-} 
+   padding-top: 5%;
+   max-width: 96%;
+   margin: auto auto 5%;
+}
+
+h2.about-us-number {
+   font-size: 45px;
+}
+
 .about-us-line {
- background: #F8DA64;
- width: 47px;
- display: inline-block;
- height: 4px
-} 
+   background: #F8DA64;
+   width: 47px;
+   display: inline-block;
+   height: 4px
+}
 
 .about-heading {
- color: ivory;
-} 
+   color: ivory;
+}
+
 .aboutus-content {
- color: #d9d9d9; 
- max-width: 80%;
-    line-height: 31px;
+   color: #d9d9d9;
+   max-width: 80%;
+   line-height: 31px;
 }
-.indicator{
- color: #f8da63;
-} 
-p.number-label { 
- font-weight: 100;
+
+.indicator {
+   color: #f8da63;
+}
+
+p.number-label {
+   font-weight: 100;
    margin-top: 15px;
-} 
-p.hr-line { 
- width: 76%;
- margin: auto;
- display: block;
- height: 1px;
- background:#fff;  
- margin-bottom: 6%;
 }
-.about-us-content{ 
- margin-bottom: 62px;
-}  
-.team-mates-group-1 { 
+
+p.hr-line {
+   width: 76%;
+   margin: auto;
+   display: block;
+   height: 1px;
+   background: #fff;
+   margin-bottom: 6%;
+}
+
+.about-us-content {
+   margin-bottom: 62px;
+}
+
+.team-mates-group-1 {
    margin-bottom: 5%;
 }
-.team-block{ 
+
+.team-block {
    position: relative;
-} 
-.team-member{ 
+}
+
+.team-member {
    position: absolute;
    top: 76px;
-    left: 48px;
-} 
-.secondary-heading{ 
-   font-size: 22px; 
+   left: 48px;
+}
+
+.secondary-heading {
+   font-size: 22px;
    margin-bottom: 2px;
-} 
-.work-name{ 
+}
+
+.work-name {
    font-size: 13px;
-} 
-.team-mates-group-2{ 
-   margin-bottom: 4%; 
+}
+
+.team-mates-group-2 {
+   margin-bottom: 4%;
    padding-bottom: 7%;
-} 
-.footer-section{ 
-   background-image: url(/assets/footer-bg.cc00989cacc2122a.svg); 
-   background-size: cover; 
+}
+
+.footer-section {
+   background-image: url(/assets/footer-bg.cc00989cacc2122a.svg);
+   background-size: cover;
    padding: 7% 7% 5%;
- } 
- a.courses-names{ 
+}
+
+.address-section {
    color: #000;
- } 
- a.links-names{ 
+   font-weight: 300;
+}
+
+a.links-names {
    color: #000;
- }
+}
+
+.links-heading a {
+   color: #000;
+   font-weight: 300;
+}
+
+.courses-list a {
+   color: #000;
+   font-weight: 300;
+}

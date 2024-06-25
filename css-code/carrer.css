@@ -1,0 +1,149 @@
+@import "https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap";
+
+ 
+ .whole-page{ 
+   background:#161616 ; 
+   font-family: Raleway, sans-serif;
+
+} 
+.container-fluid {
+   color: white;
+   text-transform: capitalize;
+   justify-content: space-between;
+   max-width: 85%;
+   margin: auto;
+
+ } 
+ a.navbar-brand {
+   font-size: 18px;
+   font-family: Raleway, sans-serif; 
+
+ }
+ section.guidance-title-section {
+   background-image: url("/assets/carrer-page-bg.f90597aae995a987.svg");
+ }
+ 
+ span.guidance-yellow-line {
+   width: 60px;
+   display: inline-block;
+   height: 2px;
+   background: #f8da64;
+ } 
+ span.query-icon {
+   background-color: #d2e6e4;
+   padding: 10px;
+   border-radius: 50%;
+   min-width: 42px;
+ }
+ 
+ div.answer-and-like-container {
+   background-color: #000;
+ }
+ 
+ div.answer-and-like-container p.answer-container {
+   border-left: 3px solid #3caa56;
+ }
+ 
+ 
+ div.form-container {
+   background-color: #212121; 
+   margin-left: 18px;
+    margin-right: -34%;
+ }
+ 
+ div.form-container form p:nth-child(odd) {
+   margin-bottom: 5px;
+ }
+ 
+ div.form-container form label {
+   font-size: 15px;
+ }
+ 
+ input[type="text"]::placeholder,
+ input[type="email"]::placeholder,
+ input[type="tel"]::placeholder,
+ div.form-container form textarea::placeholder {
+   color: #545353;
+ }
+ 
+ div.form-container form input {
+   background-color: #212121;
+   color: #fff;
+   border: 0;
+   border-bottom: 1px solid white;
+   width: 94%;
+   padding: 4px;
+   padding-left: 0;
+   border-radius: 0;
+ }
+ 
+ div.form-container form input:focus {
+   background-color: #212121;
+   color: #fff;
+ }
+ 
+ input[type="month"]::-webkit-calendar-picker-indicator {
+   background-color: #fff;
+ }
+ 
+ div.form-container form input[type="month"] {
+   color: #fff;
+   padding-left: 0;
+   padding: 3px;
+ }
+ 
+ div.form-container form textarea {
+   background-color: #212121;
+   border: 0;
+   border-bottom: 1px solid #fff;
+   resize: vertical;
+   padding: 3px;
+   color: #fff;
+   border-radius: 0;
+ }
+ 
+ div.form-container form textarea:focus {
+   background-color: #212121;
+   color: #fff;
+ }
+ 
+ div.form-container form select {
+   background-color: #212121;
+   color: #545353;
+   border: 0;
+   border-bottom: 1px solid #fff;
+   width: 95%;
+   padding: 2px;
+   border-radius: 0;
+ }
+ 
+ div.form-container form select:focus {
+   color: #fff;
+ }
+ 
+ button.send-btn {
+   border: 1px solid #f8da64;
+   color: #f8da64;
+   padding: 6px 52px;
+   border-radius: 30px;
+ }
+ 
+ button.send-btn:hover {
+   border: 1px solid #f8da64;
+   color: #f8da64;
+ }
+ 
+ footer.footer-section {
+   background-image: url("/assets/footer-bg.cc00989cacc2122a.svg");
+   background-repeat: no-repeat;
+   background-size: cover;
+ }
+ 
+ div.contact-info p,
+ div.contact-info a {
+   color: #0b7077;
+   text-decoration: none;
+ }
+ 
+ 
+ 

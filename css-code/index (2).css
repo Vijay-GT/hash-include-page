@@ -1,15 +1,13 @@
-   
-   @import "https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap";
+     @import "https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap";
+  
    .whole-page {
-    background-color: #000; 
+    background-color: #161616;   
     font-family: Raleway, sans-serif;
+   
+   
   }
 
-  .each-card-enrolled {
-    padding: 10px; 
-    padding: 8px;
-    max-width: 80%;
-  }
+  
 
   .container-fluid {
     color: white;
@@ -64,7 +62,8 @@
     text-transform: uppercase;
     padding: 15px 23px;
     margin-top: 12px;
-    background-color: yellow;
+    background-color: yellow; 
+    color: black;
   }
 
   .explore-more-container {
@@ -104,7 +103,6 @@
     padding: 5px 20px;
     font-size: 13px;
     cursor: pointer;
-    font-family: Raleway, sans-serif;
   }
 
   .course-filter-item:hover {
@@ -122,39 +120,40 @@
     font-size: 14px;
     height: 124px;
   }
-
-  .each-card-content {
-    background: #212121;
-    position: relative;
-    padding: 22px 10px 10px;
-    border-radius: 0 0 12px 12px;
-  }
-
-  .button-container {
-    text-align: right;
-    padding-right: 12px;
-    padding-bottom: 11px;
-  }
-
-  /* .btn-card-button{
  
-        border: 1px solid #F8DA64;
-        transition: all .25s ease-in;
-        cursor: pointer;
-        color: #f8da64;
-        font-size: 15px;
-        padding: 5px 18px; 
-        border-radius: 2%;
-    } */
-  button:not(:disabled) {
-    cursor: pointer;
-    color: f8da64;
-    border: 1px;
-    background-color: black;
+  p.title-of-domain {
+    padding-top: 28px;
+    padding-left: 2px;
+}
+  .each-card-content {
+    background:#212121;
+    position: relative;
+    border-radius: 0 0 12px 12px; 
+    padding: 22px 10px 10px;
+  } 
+  .each-card-enrolled {
+    padding: 10px; 
+    padding: 8px;
+    max-width: 80%; 
+    position: absolute; 
+    top: -24px;
+    left: 42px;
+}
+  
+  button.btn-button {
+    margin-left: 57%;
+    background: #f8da64;
+    border: 1px solid #f8da64;
+    border-radius: 7px;
     padding: 5px 15px;
-    transition: all .25s ease-in;
-    font-size: 15px;
-  }
+    border: 1px solid #F8DA64;;
+    background: #212121;
+    color: #f8da64;
+} 
+.btn-button:hover{ 
+  background-color:  #f8da64; 
+  color:#212121 ;
+}
 
   .primary-heading {
     font-size: 44px;
@@ -250,7 +249,22 @@
     padding-left: 19px;
     margin-bottom: 0px;
     text-transform: capitalize;
-  }
+  } 
+  h2.about-us-number {
+    font-size: 45px;
+} 
+.btn-button-1{ 
+  background: #f8da64;
+  border: 1px solid #f8da64;
+  border-radius: 7px;
+  padding: 5px 15px;
+  background: #212121;
+  color: #f8da64;
+} 
+.btn-button-1:hover{ 
+  background-color:  #f8da64; 
+  color:#212121 ;
+}
 
   .about-us-line {
     background: #F8DA64;
@@ -307,14 +321,14 @@ margin-top: 15px;
   color: white;
 
 } 
-.footer-section{ 
-  background-image: url(/assets/footer-bg.cc00989cacc2122a.svg); 
-  background-size: cover; 
-  padding: 7% 7% 5%;
-} 
-a.courses-names{ 
-  color: #000;
-} 
-a.links-names{ 
-  color: #000;
+footer.footer-section {
+  background-image: url("/assets/footer-bg.cc00989cacc2122a.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+div.contact-info p,
+div.contact-info a {
+  color: #0b7077;
+  text-decoration: none;
 }

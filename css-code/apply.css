@@ -1,0 +1,14 @@
+@import "https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap";
+  
+ 
+ .whole-page{ 
+ background-color: #212121;
+ font-family: Raleway, sans-serif;
+
+} 
+
+button.btn {
+ padding: 4px 103px;
+ border: 1px solid black;
+ margin-right: 31%;
+}
