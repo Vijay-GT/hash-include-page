@@ -1,0 +1,86 @@
+@import "https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap";
+  
+   .whole-page {
+    background-color: #161616;   
+    font-family: Raleway, sans-serif;
+   
+   
+  }
+  .container-fluid {
+    color: white;
+    text-transform: capitalize;
+    justify-content: space-between;
+    max-width: 85%;
+    margin: auto;
+
+  }
+
+  a.navbar-brand {
+    font-size: 18px;
+    font-family: Raleway, sans-serif;
+  } 
+  .banner{ 
+   background-color: #212121; 
+   margin-right: 5%;
+    margin-left: 5%; 
+    color: ivory;
+}
+img.front-image {
+ padding-left: 32px;
+ padding-top: 24px;
+}
+ 
+button.btn-button {
+ margin-left: 79%;
+ background: #f8da64;
+ border: 1px solid #f8da64;
+ border-radius: 7px;
+ padding: 5px 15px;
+ border: 1px solid #F8DA64;;
+ background: #212121;
+ color: #f8da64; 
+ margin-top: 3%;
+} 
+.btn-button:hover{ 
+background-color:  #f8da64; 
+color:#212121 ;
+}  
+
+.courses-content{
+ margin-left: 3%;
+ font-size: 13px;
+ font-weight: 100;
+} 
+h4.heading {
+  font-size: 20px;
+  font-weight: 500;
+  margin-left: 16px;
+} 
+p.course-para {
+  margin-left: 12px;
+}
+li.list-content {
+  padding-top: 21px;
+} 
+.box-container {
+height: 320px;
+  padding: 30px; 
+  margin-top: 20px; 
+  margin-bottom: 20px;
+}
+
+li.box-content {
+  padding-top: 12px;
+} 
+footer.footer-section {
+  background-image: url("/assets/footer-bg.cc00989cacc2122a.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+div.contact-info p,
+div.contact-info a {
+  color: #0b7077;
+  text-decoration: none;
+}
+

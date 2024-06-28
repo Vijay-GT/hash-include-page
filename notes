@@ -46,3 +46,13 @@
 
 </body>
 </html>
+
+
+
+
+
+
+<a class="btn-default text-decoration-none bg-white text-dark rounded p-2" href="apply.html " role="button"
+                title="Click to enroll for the course">
+                Apply Now
+              </a>

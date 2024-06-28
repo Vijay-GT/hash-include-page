@@ -165,6 +165,7 @@
     margin-top: 12%;
   }
 
+  
   .whyus-each-card {
     background: #212121;
     color: #d9d9d9;
@@ -173,7 +174,10 @@
     border-radius: 10px;
     margin-bottom: 23px;
     width: 279px;
+    flex-wrap: wrap;
   }
+
+
 
   .why-us-sub-content {
     color: #d9d9d9;
@@ -247,8 +251,8 @@
     font-size: 18px;
     color: fff;
     padding-left: 19px;
+    text-transform: capitalize; 
     margin-bottom: 0px;
-    text-transform: capitalize;
   } 
   h2.about-us-number {
     font-size: 45px;
