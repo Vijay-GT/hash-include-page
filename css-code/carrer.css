@@ -143,7 +143,32 @@
  div.contact-info a {
    color: #0b7077;
    text-decoration: none;
- }
+ } 
+
+
+ @media only screen and (max-width: 575px){ 
+  h2.display-4 {
+    font-size: 27px;
+    margin-top: -117px;
+}
+div.form-container {
+  
+  margin-right: 3%;
+}
+} 
+
+@media only screen and (max-width: 768px){
+  
+
+  p.fw-lighter.mb-0 {
+    font-size: 15px;
+    color: white;
+} 
+div.form-container {
+  
+  margin-right: 2%;
+}
+}
  
  
  

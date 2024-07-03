@@ -83,4 +83,19 @@ div.contact-info a {
   color: #0b7077;
   text-decoration: none;
 }
+ 
+@media only screen and (max-width: 575px){ 
+
+
+  img.img-fluid.front-image {
+    margin-left: -16px;
+  } 
+  }  
+
+  @media only screen and (max-width: 768px){ 
+  
+    img.img-fluid.front-image{
+    margin-left: -18px; 
+  }
+  }
 

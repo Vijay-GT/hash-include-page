@@ -1,0 +1,228 @@
+<!-- The Apply Section Starts Here -->
+<div class="offer-aplly-btn mt-3">
+ <button
+   type="button"
+   class="btn btn-light"
+   data-bs-toggle="modal"
+   data-bs-target="#myModal"
+ >
+   Apply Now
+ </button>
+ <!-- The Modal Section Starts here  -->
+ <div class="modal fade" id="myModal">
+   <div class="modal-dialog modal-lg">
+     <div class="modal-content m-4 p-3">
+       <div
+         class="modal-headaing d-flex justify-content-between"
+       >
+         <h4 class="modal-title text-white m-4">
+           Enroll Here
+         </h4>
+         <div class="close-btn m-4">
+           <button
+             type="button"
+             class="close-btn"
+             data-bs-dismiss="modal"
+           ></button>
+         </div>
+       </div>
+       <!-- The Form Section Starts Here -->
+       <div class="apply-form px-2 m-1">
+         <div class="container">
+           <div class="row">
+             <div class="col-md-6">
+               <div class="name-section py-1">
+                 <div class="label-head">
+                   <label for="name"
+                     >Full Name<span class="text-danger"
+                       >*</span
+                     ></label
+                   >
+                 </div>
+                 <div class="input-content">
+                   <input
+                     type="name"
+                     class="form-control"
+                     id="name"
+                     placeholder="Enter Your Name"
+                     name="name"
+                   />
+                 </div>
+               </div>
+             </div>
+             <div class="col-md-6">
+               <div class="number-section py-1">
+                 <div class="label-head">
+                   <label for="num" class="form-label"
+                     >Phone Number<span class="text-danger"
+                       >*</span
+                     ></label
+                   >
+                 </div>
+                 <div class="input-content">
+                   <input
+                     type="tel"
+                     class="form-control"
+                     id="num"
+                     placeholder="Enter Your Phone Number"
+                     name="name"
+                   />
+                 </div>
+               </div>
+             </div>
+           </div>
+           <div class="row">
+             <div class="col-md-6">
+               <div class="email-section py-1">
+                 <div class="label-head">
+                   <label for="email" class="form-label"
+                     >Email Address<span class="text-danger"
+                       >*</span
+                     ></label
+                   >
+                 </div>
+                 <div class="input-content">
+                   <input
+                     type="email"
+                     class="form-control"
+                     id="email"
+                     placeholder="Enter Your email Address"
+                     name="name"
+                   />
+                 </div>
+               </div>
+             </div>
+             <div class="col-md-6">
+               <div class="Courses-intrested-in py-1">
+                 <div class="label-head">
+                   <label for="courses-list" class="form-label"
+                     >Courses Intrested in<span
+                       class="text-danger"
+                       >*</span
+                     ></label
+                   >
+                 </div>
+                 <div class="input-content">
+                   <select
+                     name="courses"
+                     id="courses-lists"
+                     class="form-select"
+                   >
+                     <option value="">Select</option>
+                     <option value="UI/UX">
+                       UI/UX Designing
+                     </option>
+                     <option value="Fron">
+                       Fullstack Development
+                     </option>
+                     <option value="Full">
+                       Front-End Development
+                     </option>
+                     <option value="Test">
+                       Testing(Manual+Automation)
+                     </option>
+                   </select>
+                 </div>
+               </div>
+             </div>
+           </div>
+         </div>
+         <div class="row">
+           <div class="col-md-6">
+             <div class="education-section py-1">
+               <div class="label-head">
+                 <label for="education" class="form-label"
+                   >Please select your Education
+                   qualification<span class="text-danger"
+                     >*</span
+                   ></label
+                 >
+               </div>
+               <div class="input-content">
+                 <select
+                   name="education-list"
+                   id="education"
+                   class="form-select"
+                 >
+                   <option value="">Select</option>
+                   <option value="Pursuing">Pursuing</option>
+                   <option value="B-tech">B-tech</option>
+                   <option value="Degree">Degree</option>
+                   <option value="MCA">MCA</option>
+                   <option value="PG">Post Graduation</option>
+                   <option value="Diploma">Diploma</option>
+                   <option value="others">Others</option>
+                 </select>
+               </div>
+             </div>
+           </div>
+           <div class="col-md-6">
+             <div class="timings-section py-1">
+               <div class="label-head">
+                 <label for="timings" class="form-label"
+                   >Best time to reach out</label
+                 >
+               </div>
+               <div class="input-content">
+                 <select
+                   name="timings"
+                   id="timings"
+                   class="form-select"
+                 >
+                   <option value="">9AM</option>
+                   <option value="10">10AM</option>
+                   <option value="11">11AM</option>
+                   <option value="12">12AM</option>
+                   <option value="2">2AM</option>
+                   <option value="3">3AM</option>
+                   <option value="4">4AM</option>
+                   <option value="5">5AM</option>
+                   <option value="6">6AM</option>
+                   <option value="7">7AM</option>
+                   <option value="8">8AM</option>
+                 </select>
+               </div>
+             </div>
+           </div>
+         </div>
+         <div class="col-md-12">
+           <div class="message-section py-1">
+             <div class="label-head">
+               <label for="message" class="form-label"
+                 >Message<span class="text-danger"
+                   >*</span
+                 ></label
+               >
+             </div>
+             <div class="input-content">
+               <textarea
+                 class="form-control"
+                 rows="3"
+                 id="message"
+                 name="text"
+               ></textarea>
+             </div>
+           </div>
+         </div>
+         <div class="register-btn text-center">
+           <button
+             type="button"
+             class="btn btn-outline-dark border border-warning rounded-5"
+           >
+             Register
+           </button>
+         </div>
+         <div class="indicates-section text-center">
+           <p>
+             <span class="text-danger">*</span>indicates
+             required fields
+           </p>
+         </div>
+       </div>
+       <!-- The Form Section Ends Here -->
+     </div>
+   </div>
+ </div>
+ <!-- The Modal Section Ends here  -->
+</div>
+<!-- The Apply Section Ends Here -->

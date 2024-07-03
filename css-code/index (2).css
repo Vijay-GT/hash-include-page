@@ -18,14 +18,7 @@
 
   }
 
-  a.navbar-brand {
-    font-size: 18px;
-    font-family: Raleway, sans-serif;
-  }
-
-  a.navbar-brand:active {
-    color: #f8da64;
-  }
+  
 
   p.banner-call-action {
     background: #fff;
@@ -42,7 +35,7 @@
     border-top: none;
     border-radius: 0 0 45px 45px; 
   }
-
+  
   .banner-image {
     position: absolute;
     top: 27px;
@@ -91,9 +84,26 @@
     display: flex;
     justify-content: center;
     margin-top: 30px;
-  }
+  } 
+  .popular-list-container{ 
+    margin-left: 22%;
+  } 
+  button.btn.text-white.filter-item {
+    margin-left: 2%;
+}
 
-  .course-filter-item {
+  .filter-item{ 
+
+    outline: white solid; 
+    background-color:  #161616; 
+    color: white; 
+    
+  } 
+  .filter-item :hover{
+background-color: blue; 
+color: white;
+  }
+  .course-item {
     color: #fff;
     border-color: #624bff;
     color: #818c96;
@@ -102,10 +112,11 @@
     margin-right: 26px;
     padding: 5px 20px;
     font-size: 13px;
-    cursor: pointer;
+    cursor: pointer; 
+    
   }
 
-  .course-filter-item:hover {
+  .course-item:hover {
     background-color: #624bff;
     color: #fff;
     border-color: #624bff;
@@ -175,6 +186,19 @@
     margin-bottom: 23px;
     width: 279px;
     flex-wrap: wrap;
+  } 
+  @media screen and (min-width: 375px){  
+    .whyus-each-card {
+      background: #212121;
+      color: #d9d9d9;
+      text-align: center;
+      padding: 4px 15px -2px;
+      border-radius: -25px;
+      margin-bottom: 23px;
+      width: 279px;
+      margin-left: 8px;
+    }
+    
   }
 
 
@@ -216,7 +240,41 @@
     border: .5px solid #FFFFF0;
     border-radius: 15px;
     padding: 17px 13px 13px;
+  } 
+  @media only screen and (max-width: 768px){
+    .why-we-stand-card {
+      padding: 83px 77px 9px;
+      margin-top: 31px;
+  } 
+  .each-card-enrolled {
+    padding: 10px;
+    left: 124px; 
+} 
+
+.courses-card-container {
+  margin-top: 8%;
+} 
+.each-card-enrolled {
+  left: 121px;
+  padding: 11px;
+} 
+.title-of-card {
+  font-size: 23px;
+} 
+p.content-of-card {
+  font-size: 18px;
+} 
+p.course-item {
+  margin: auto;
+} 
+p.why-us-sub-content {
+  font-size: 13px;
+} 
+h2.display-5.fw-medium {
+  font-size: 20px;
+}
   }
+
 
   .title-of-the-card {
     color: ivory;
@@ -358,4 +416,112 @@ div.contact-info p,
 div.contact-info a {
   color: #0b7077;
   text-decoration: none;
+}
+@media only screen and (max-width: 575px){ 
+
+  /* h2.primary-heading {
+    font-size: 26px;
+    margin-top: 28%;
+}  */
+
+h1.banner-heading {
+  font-size: 36px;
+} 
+p.banner-call-action {
+  
+  padding: 6px 33px;
+  font-size: 12px;
+  
+}
+.rounded-circle {
+  width: 193px;
+  height: 193;
+} 
+.explore-more-container{ 
+  bottom: -124;
+} 
+button.banner-btn.btn {
+  text-transform: uppercase;
+  padding: 7px 8px;
+}
+img.img-fluid.human-images {
+  width: 174px;
+} 
+.courses-card-container {
+  max-width: 86%;
+  margin-left: 39px;
+} 
+button.btn-button {
+  margin-left: 69%; 
+  margin-bottom: 18px;
+
+}  
+.why-we-stand-card {
+  padding: 47px 33px 47px 33px;
+ 
+} 
+h2.primary-heading {
+  font-size: 27px;
+  margin-top: 6%;
+} 
+
+.who-hash-include-content {
+  margin-top: 10%;
+}
+p.aboutus-content {
+  width: 100%; 
+  margin-left: 10px;
+}
+.about-heading {
+  margin-left: 10px;
+}
+.btn-button-1 {
+  margin-left: 10px;
+} 
+.testimonial-inner-container.border.rounded-4 {
+  width: 95%;
+  margin-top: 5%;
+  margin-left: 11px;
+} 
+
+
+} 
+
+@media only screen and (max-width: 768px){  
+
+  h1.banner-heading {
+    font-size: 35px;
+  }
+  p.banner-call-action {
+    
+    padding: 5px 10px;
+    font-size: 16px;
+  } 
+  img.img-fluid.explore-path {
+    height: 135px;
+    width: 135px;
+} 
+button.banner-btn.btn {
+  
+  padding: 5px 9px;
+} 
+
+img.img-fluid.human-images {
+  width: 198px;
+  margin: 6% auto;
+}
+.explore-more-container {
+ 
+  left: 55%;
+  bottom: -125px; 
+
+}  
+button.btn-button {
+  margin-left: 66%;
+  margin-top: 4%;
+  margin-bottom: 5%; 
+}
+.testimonial-inner-container.border.rounded-4 {
+  margin-top: 5%;
+}
 }

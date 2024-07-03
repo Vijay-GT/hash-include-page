@@ -13,21 +13,58 @@
 <body>
   <div class="whole-page">
     <!--section starts here-->
-    <nav class="navbar navbar-expand-lg navbar-dark  text-white">
-      <div class="container-fluid mt-5 ">
-        <a class="navbar-brand" href="#"><img src="/assets/hash-include-logo.svg" alt="hash-include-logo.svg"></a>
-        <a class="navbar-brand" href="index.html">home</a>
-        <a class="navbar-brand" href="courses.html">courses</a>
-        <a class="navbar-brand" href="about.html">about us</a>
-        <a class="navbar-brand" href="carrer.html">carrer guidance</a>
-      </div>
-    </nav>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg pe-md-5 mb-5 pt-5 fs-5">
+        <div class="container-fluid">
+          <a class="navbar-brand pe-md-5 me-md-5" href="#"
+            ><img
+              src="assets/hash-include-logo.svg"
+              alt="Hash Include Logo"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon bg-white"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav w-100 d-flex justify-content-between">
+              <li class="nav-item">
+                <a class="nav-link active-link text-white" aria-current="page" href="#"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="courses.html"
+                  >Courses</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="about.html"
+                  >About Us</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="guidance.html"
+                  >Career Guidance</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+        </div>
     <!--section ends here-->
     <!--section starts here-->
     <section class="guidance-title-section py-5">
       <div class="container text-center py-5">
         <h2 class="display-4 fw-medium text-white">We guide your path</h2>
-        <p class="fs-5 fw-lighter mb-0">Question us & get answered</p>
+        <p class=" fw-lighter mb-0">Question us & get answered</p>
         <span class="guidance-title-line guidance-yellow-line"></span>
       </div>
     </section>
@@ -270,9 +307,10 @@
 
     <!--section starts here-->
     <footer class="footer-section">
+      
       <div class="container mt-5 py-5">
         <div class="row pt-5 pb-4">
-          <div class="col-4 contact-info">
+          <div class="col-md-4 contact-info">
             <img src="assets/footer-logo.svg" alt="footer-logo" />
             <p class="mt-3 mb-2">
               <img src="assets/location.svg" alt="Loaction image" />
@@ -293,7 +331,7 @@
             <a href="mailto:info@hashinclude.info"><img src="assets/mail.svg" alt="Mail image" />
               <span>Email: info@hashinclude.info</span></a>
           </div>
-          <div class="col-2 ps-5 courses-footer">
+          <div class="col-md-2 col-6 ps-5 courses-footer">
             <p class="text-black fw-semibold">Courses</p>
             <p>
               <a class="text-decoration-none text-black fw-light" href="#">Frontend</a>
@@ -308,7 +346,7 @@
               <a class="text-decoration-none text-black fw-light" href="#">Testing</a>
             </p>
           </div>
-          <div class="col-2 footer-links">
+          <div class="col-md-2 col-6 footer-links">
             <p class="text-black fw-semibold">Links</p>
             <p>
               <a class="text-decoration-none text-black fw-light" href="about.html">About Us</a>

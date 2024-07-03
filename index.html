@@ -14,41 +14,81 @@
   <div class="whole-page ">
     <!--section starts here-->
     <div class="header">
-      <nav class="navbar navbar-expand-lg navbar-dark  text-white">
-        <div class="container-fluid mt-5 ">
-          <a class="navbar-brand" href="#"><img src="/assets/hash-include-logo.svg" alt="hash-include-logo.svg"></a>
-          <a class="navbar-brand" href="index.html">home</a>
-          <a class="navbar-brand" href="courses.html">courses</a>
-          <a class="navbar-brand" href="about.html">about us</a>
-          <a class="navbar-brand" href="carrer.html">carrer guidance</a>
-        </div>
-      </nav>
-
+       
       <div class="container">
+        <nav class="navbar navbar-expand-lg pe-md-5 mb-5 pt-5 fs-5">
+          <div class="container-fluid">
+            <a class="navbar-brand pe-md-5 me-md-5" href="#"
+              ><img
+                src="assets/hash-include-logo.svg"
+                alt="Hash Include Logo"
+            /></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon bg-white"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav w-100 d-flex justify-content-between">
+                <li class="nav-item">
+                  <a class="nav-link active-link text-white" aria-current="page" href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="courses.html"
+                    >Courses</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="about.html"
+                    >About Us</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="guidance.html"
+                    >Career Guidance</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+          </div>
+  
+      <div class="container"> 
+        <div class="inner-heading-container">
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-md-6 col-sm-6">
             <p class="banner-call-action mt-5">Never stop learning</p>
             <h1 class="banner-heading text-white">elevate your skills with<br>hash include's <br>guidance</h1>
             <div class="path-btn-container">
               <button class="banner-btn btn">Explore Path</button>
-              <img src="/assets/banner-sub-image.svg" alt="banner-sub-images ">
+              <img src="/assets/banner-sub-image.svg" alt="banner-sub-images " class="img-fluid human-images ">
             </div>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-6 col-sm-6">
             <div class="main-banner">
-              <img src="/assets/banner-main-img.svg" alt="student-main-banner" class="img-fluid">
+              <img src="/assets/banner-main-img.svg" alt="student-main-banner" class="img-fluid ">
             </div>
           </div>
         </div>
       </div>
+      </div>
       <div class="explore-more-container rounded-circle">
-        <img src="/assets/explore-more.svg" alt="explore-path" class="explore-path">
+        <img src="/assets/explore-more.svg" alt="explore-path" class="img-fluid explore-path ">
       </div>
     </div>
     <!--section ends here-->
     <!--section starts here-->
     <section class="courses  ">
-      <div class="primary-heading-container text-center ">
+      <div class="primary-heading-container text-center">
         <h2 class="primary-heading text-white">popular courses</h2>
         <img src="/assets/popular-course-line.svg" alt="popular-course-line">
       </div>
@@ -56,18 +96,27 @@
     <!--section ends here-->
     <!--section starts here-->
     <section class="popular-section">
-      <div class="popular-list-container">
-        <div class="popular-filter-section ">
-          <p class="course-filter-item active bg-primary text-white">All Program</p>
-          <p class="course-filter-item active">Front-end development</p>
-          <p class="course-filter-item active">Full-stack development</p>
-          <p class="course-filter-item active">Testing</p>
-          <p class="course-filter-item active">UI/UX design</p>
+      <div class="popular-list-container mt-4">
+        <select class="d-block mx-auto d-md-none form-select bg-black text-white w-75">
+          <option>All Program</option>
+          <option>Frontend Developer</option>
+          <option>Full-stack Development</option>
+          <option>Testing</option>
+          <option>UI/UX Design</option>
+        </select>
+        <div class="popular-filter-section d-none d-md-block">
+          <button type="button" class="btn btn-primary filter-item ">All Programs</button>
+          <button type="button" class="btn text-white   filter-item ">Front-end development</button>
+          <button type="button" class="btn text-white  filter-item ">Fullstack development</button>
+          <button type="button" class="btn  text-white  filter-item ">Testing</button>
+          <button type="button" class="btn text-white   filter-item ">UI/UX designing</button>
+
+
         </div>
       </div>
       <div class="container mt-5">
         <div class="row">
-          <div class="col-md-3">
+          <div class="col-md-3 ">
             <div class="courses-card-container">
               <div class="each-card">
                 <img src="/assets/frontend-card.svg" alt="frontend-development" class=" w-100">
@@ -89,7 +138,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3">
+          <div class="col-md-3 ">
             <div class="courses-card-container">
               <div class="each-card">
                 <img src="/assets/ui.ux-desining.svg" alt="ui/ux-desining" class=" w-100">
@@ -111,7 +160,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3">
+          <div class="col-md-3 ">
             <div class="courses-card-container">
               <div class="each-card">
                 <img src="/assets/testing.svg" alt="testing" class=" w-100">
@@ -149,7 +198,7 @@
                     technologies, equipped to build robust and scalable web applications from start to finish.</p>
                 </div>
                 <div>
-                    <a href=""><button class="btn-button">Learn More</button></a>
+                    <a href="learn4.html"><button class="btn-button">Learn More</button></a>
                 </div>
               </div>
             </div>
@@ -173,7 +222,7 @@
         </div>
         <div class="why-us-cards mt-5">
           <div class="whyus-card">
-            <div class="top-whyus-cards d-flex justify-content-evenly text-white">
+            <div class="top-whyus-cards d-flex flex-wrap justify-content-evenly text-white">
               <div class="whyus-each-card">
                 <img src="/assets/ai-img.svg" alt="ai-image" class="img-fluid">
                 <p class="card-inside-content">workshops on AI</p>
@@ -194,7 +243,7 @@
             </div>
 
 
-            <div class="bottom-whys-cards d-flex  justify-content-evenly text-white">
+            <div class="bottom-whys-cards d-flex flex-wrap   justify-content-evenly text-white">
               <div class="whyus-each-card  ">
                 <img src="/assets/idea.svg" alt="idea-image" class="img-fluid">
                 <p class="card-inside-content ">pitching startup <br> ideas</p>
@@ -327,7 +376,7 @@
                 designed to meet the demands of today's IT industry.
               </p>
               <div>
-                <button class="btn-button-1 ">Learn More</button>
+                 <a href="about.html"><button class="btn-button-1 ">Learn More</button></a>
               </div>
             </div>
           </div>
@@ -436,7 +485,7 @@
       <section class="application-section w-75 m-auto mt-5 rounded">
         <div class="container application-container p-5 rounded-4">
           <div class="row">
-            <div class="col-7">
+            <div class="col-md-7">
               <div class="application-description ms-5">
                 <h2 class="display-5 fw-medium">
                   Grab the early slot at feasible price
@@ -616,7 +665,7 @@
                 <!-- The Apply Section Ends Here -->
               </div>
             </div>
-            <div class="col-5 align-self-center">
+            <div class="col-md-5 mt-4 align-self-center">
               <div class="offer-timer-section">
                 <p class="display-6">Offer Expires in</p>
               </div>
@@ -649,7 +698,7 @@
         <!--section ends here-->
         <div class="container mt-5 py-5">
           <div class="row pt-5 pb-4">
-            <div class="col-4 contact-info">
+            <div class="col-md-4 contact-info">
               <img src="assets/footer-logo.svg" alt="footer-logo" />
               <p class="mt-3 mb-2">
                 <img src="assets/location.svg" alt="Loaction image" />
@@ -670,7 +719,7 @@
               <a href="mailto:info@hashinclude.info"><img src="assets/mail.svg" alt="Mail image" />
                 <span>Email: info@hashinclude.info</span></a>
             </div>
-            <div class="col-2 ps-5 courses-footer">
+            <div class="col-md-2 col-6 ps-5 courses-footer">
               <p class="text-black fw-semibold">Courses</p>
               <p>
                 <a class="text-decoration-none text-black fw-light" href="#">Frontend</a>
@@ -685,7 +734,7 @@
                 <a class="text-decoration-none text-black fw-light" href="#">Testing</a>
               </p>
             </div>
-            <div class="col-2 footer-links">
+            <div class="col-md-2 col-6 footer-links">
               <p class="text-black fw-semibold">Links</p>
               <p>
                 <a class="text-decoration-none text-black fw-light" href="about.html">About Us</a>

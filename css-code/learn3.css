@@ -84,3 +84,24 @@ div.contact-info a {
   text-decoration: none;
 }
 
+
+
+
+@media only screen and (max-width: 575px){ 
+
+
+img.img-fluid.front-image {
+  margin-left: -16px;
+} 
+} 
+
+
+@media only screen and (max-width: 768x){ 
+
+
+img.front-image {
+ 
+  margin-left: -18px;
+} 
+
+}

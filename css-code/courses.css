@@ -57,7 +57,21 @@ p.title-of-domain {
   position: relative;
   border-radius: 0 0 12px 12px; 
   padding: 22px 10px 10px;
+}  
+.popular-list-container{ 
+  margin-left: 22%;
 } 
+button.btn.text-white.filter-item {
+  margin-left: 2%;
+}
+
+.filter-item{ 
+
+  outline: white solid; 
+  background-color:  #161616; 
+  color: white; 
+  font-weight: 100;
+}
 .each-card-enrolled {
   padding: 10px; 
   padding: 8px;
@@ -91,6 +105,44 @@ div.contact-info p,
 div.contact-info a {
   color: #0b7077;
   text-decoration: none;
+} 
+
+@media only screen and (max-width: 575px){ 
+
+.courses-card-container {
+  max-width: 86%;
+  margin-left: 39px; 
+  margin-top: 6%;
+} 
+button.btn-button {
+  margin-left: 69%; 
+  margin-bottom: 18px;
+
+}  
+button.btn-button {
+  margin-left: 69%; 
+  margin-bottom: 18px;
 }
 
-
+}
+ 
+@media only screen and (max-width: 768px){ 
+ button.btn-button {
+  margin-left: 66%;
+  margin-top: 4%;
+  margin-bottom: 5%; 
+} 
+.courses-card-container {
+  margin-top: 6%;
+} 
+.each-card-enrolled {
+  left: 27%;
+  padding: 14px;
+} 
+p.title-of-domain { 
+  font-size: 20px;
+} 
+.content-of-card {
+  font-size: 18px;
+} 
+}
