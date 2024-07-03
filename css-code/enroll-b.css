@@ -1,0 +1,29 @@
+ 
+  @import "https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap";
+  
+  .whole-page {
+   background-color: #161616;   
+   font-family: "Raleway, sans-serif";
+  
+  
+ }
+ .form-control {
+ background: #212121;
+ border: none;
+ border-bottom: 1px solid #fff;
+ border-radius: 0;
+ color: #fff;
+ padding-left: 0;
+}
+.form-select {
+ background: #212121;
+ border: none;
+ border-bottom: 1px solid #fff;
+ border-radius: 0;
+ color: #fff;
+}
+.register-btn button {
+ margin: 10px;
+ padding: 10px 150px;
+ color: #e3c75c;
+}

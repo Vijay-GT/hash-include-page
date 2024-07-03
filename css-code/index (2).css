@@ -240,7 +240,28 @@ color: white;
     border: .5px solid #FFFFF0;
     border-radius: 15px;
     padding: 17px 13px 13px;
-  } 
+  }  
+
+  .form-control {
+    background: #212121;
+    border: none;
+    border-bottom: 1px solid #fff;
+    border-radius: 0;
+    color: #fff;
+    padding-left: 0;
+   }
+   .form-select {
+    background: #212121;
+    border: none;
+    border-bottom: 1px solid #fff;
+    border-radius: 0;
+    color: #fff;
+   }
+   .register-btn button {
+    margin: 10px;
+    padding: 10px 150px;
+    color: #e3c75c;
+   }
   @media only screen and (max-width: 768px){
     .why-we-stand-card {
       padding: 83px 77px 9px;
@@ -523,5 +544,16 @@ button.btn-button {
 }
 .testimonial-inner-container.border.rounded-4 {
   margin-top: 5%;
+}
+} 
+
+  @media only screen and (min-width: 370px) {
+
+button.btn-button {
+  width: 37%;
+  margin-left: 50%;
+}  
+.each-card-enrolled. {
+  left: 49px;
 }
 }
