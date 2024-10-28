@@ -91,13 +91,33 @@ p.hr-line {
 .team-mates-group-2 {
    margin-bottom: 4%;
    padding-bottom: 7%;
+}  
+button.btn-button {
+   margin-left: 57%;
+   background: #f8da64;
+   border: 1px solid #f8da64;
+   border-radius: 7px;
+   padding: 5px 15px;
+   border: 1px solid #F8DA64;;
+   background: #212121;
+   color: #f8da64;
+ } 
+.btn-button:hover{ 
+   background-color:  #f8da64; 
+   color:#212121 ; 
 }
 
 .footer-section {
-   background-image: url(/assets/footer-bg.cc00989cacc2122a.svg);
+   background-image: url( "/assets/footer-bg.cc00989cacc2122a.svg");
    background-size: cover;
    padding: 7% 7% 5%;
-}
+} 
+
+div.contact-info p,
+div.contact-info a {
+  color: #0b7077;
+  text-decoration: none;
+} 
 
 .address-section {
    color: #000;
@@ -131,5 +151,5 @@ img.image-fluid.team-image {
 @media only screen and (max-width: 768px){
 img.image-fluid.team-image {
    margin-top: 7%; 
-}
+} 
 }
